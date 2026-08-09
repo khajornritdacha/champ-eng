@@ -26,7 +26,7 @@ export function ChecklistStageTabs({
         <button
           aria-controls={`${stage.id}-panel`}
           aria-selected={index === activeIndex}
-          className={`shrink-0 rounded-full border px-3 py-2 text-[10px] font-bold transition-colors ${index === activeIndex ? "border-black bg-black text-white" : "border-[#BCBEC0] bg-white text-black/70 hover:border-[#922D2E]"}`}
+          className={`shrink-0 rounded-full border px-3 py-2 text-[10px] font-bold transition-colors ${index === activeIndex ? "border-[#922D2E] bg-[#922D2E] text-white " : "border-[#BCBEC0] bg-white text-black/70 hover:border-[#922D2E]"}`}
           id={`${stage.id}-tab`}
           key={stage.id}
           onClick={() => onSelectStage(index)}

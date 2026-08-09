@@ -50,12 +50,6 @@ export function ApplicationChecklist({
         see what happens next.
       </p>
 
-      <ChecklistSchedule
-        activeIndex={activeIndex}
-        scheduleStatuses={scheduleStatuses}
-        stages={applicationStages}
-      />
-
       <ChecklistStageTabs
         activeIndex={activeIndex}
         onKeyDown={handleStageNavigationKeyDown}
@@ -77,6 +71,12 @@ export function ApplicationChecklist({
       />
 
       {activeStage.showDressCode ? <DressCodePanel /> : null}
+
+      <ChecklistSchedule
+        activeIndex={activeIndex}
+        scheduleStatuses={scheduleStatuses}
+        stages={applicationStages}
+      />
     </section>
   );
 }
