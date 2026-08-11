@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
+  /* Sukhumvit Set ships with macOS/iOS and cannot be self-hosted, so
+     Noto Sans Thai is loaded as the web fallback for every other platform. */
+  --font-sans:
+    "Sukhumvit Set", var(--font-noto-sans-thai), Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -23,7 +26,7 @@ body {
   margin: 0;
   background: var(--champ-white);
   color: var(--champ-black);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
 
 @keyframes enter {

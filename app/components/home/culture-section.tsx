@@ -32,7 +32,7 @@ export function CultureSection(): React.JSX.Element {
             src="/champ-logo.png"
             width={148}
           />
-          <em className="text-[22px] font-bold tracking-[-0.05em] not-italic">
+          <em className="text-[22px] font-bold tracking-[0.035em] not-italic">
             Might be for you
           </em>
         </p>

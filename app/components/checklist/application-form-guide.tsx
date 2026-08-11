@@ -4,7 +4,7 @@ export function ApplicationFormGuide(): React.JSX.Element {
   return (
     <div className="mt-[42px] grid gap-[34px]">
       <section className="border-t border-[#BCBEC0] pt-8">
-        <h2 className="text-[26px] leading-[1.12] font-bold tracking-[-0.055em]">
+        <h2 className="text-[26px] leading-[1.12] font-bold tracking-[0.035em]">
           การเขียนใบสมัครให้อะไรเราบ้าง
         </h2>
         <div className="mt-[18px] grid gap-3">
@@ -28,7 +28,7 @@ export function ApplicationFormGuide(): React.JSX.Element {
 
       <section>
         <div className="rounded-2xl bg-black p-[22px] text-white">
-          <h2 className="text-[29px] leading-[1.12] font-bold tracking-[-0.055em]">
+          <h2 className="text-[29px] leading-[1.12] font-bold tracking-[0.035em]">
             Quick Tips
           </h2>
           <p className="mt-1 text-xs font-bold text-[#BCBEC0]">

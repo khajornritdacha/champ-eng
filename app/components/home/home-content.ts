@@ -21,16 +21,23 @@ export const pastCohortMoments = [
   {
     id: "orientation",
     order: "01",
-    title: "Mentor Orientation",
-    primaryImage: "/moments/mentor-orientation-1.png",
-    secondaryImage: "/moments/mentor-orientation-2.png",
+    title: "Mentee Orientation",
+    primaryImage: "/moments/mentee-orientation-1.jpg",
+    secondaryImage: "/moments/mentee-orientation-2.jpg",
   },
   {
     id: "workshop",
     order: "02",
     title: "Strength Finder Workshop",
-    primaryImage: "/moments/strength-finder-1.png",
-    secondaryImage: "/moments/strength-finder-2.png",
+    primaryImage: "/moments/strength-finder-1.jpg",
+    secondaryImage: "/moments/strength-finder-2.jpg",
+  },
+  {
+    id: "sport-day",
+    order: "03",
+    title: "Sport Day",
+    primaryImage: "/moments/sport-day-1.jpg",
+    secondaryImage: "/moments/sport-day-2.jpg",
   },
 ];
 
