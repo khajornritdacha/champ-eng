@@ -50,9 +50,9 @@ export function SocialFooter(): React.JSX.Element {
         </p>
         <a
           className="mt-1 inline-block text-[10px] font-bold text-white underline"
-          href="mailto:official.champeng9@gmail.com"
+          href="mailto:selectionteam.champeng9@gmail.com"
         >
-          official.champeng9@gmail.com
+          selectionteam.champeng9@gmail.com
         </a>
       </div>
       <nav aria-label="ChAMP social channels" className="col-span-2 flex gap-4">
