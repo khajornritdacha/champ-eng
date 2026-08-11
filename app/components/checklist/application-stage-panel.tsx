@@ -8,6 +8,8 @@ import { StageControls } from "./stage-controls";
 
 type ApplicationStagePanelProps = {
   completedItems: string[];
+  isFirstStage: boolean;
+  isLastStage: boolean;
   onKeyDown: (event: KeyboardEvent<HTMLElement>) => void;
   onNextStage: () => void;
   onPointerDown: (event: PointerEvent<HTMLElement>) => void;
@@ -20,6 +22,8 @@ type ApplicationStagePanelProps = {
 
 export function ApplicationStagePanel({
   completedItems,
+  isFirstStage,
+  isLastStage,
   onKeyDown,
   onNextStage,
   onPointerDown,
@@ -42,7 +46,7 @@ export function ApplicationStagePanel({
     >
       <div className="flex items-start justify-between gap-5 px-0.5">
         <div className="min-w-0">
-          <h2 className="text-[25px] leading-[1.08] font-bold tracking-[-0.055em]">
+          <h2 className="text-[25px] leading-[1.08] font-bold tracking-[0.035em]">
             {stage.title}
           </h2>
           <p className="mt-3 max-w-[335px] text-[13px] leading-[1.65] text-black/70">
@@ -72,7 +76,12 @@ export function ApplicationStagePanel({
 
       {stage.id === "application-form" ? <ApplicationFormGuide /> : null}
 
-      <StageControls onNext={onNextStage} onPrevious={onPreviousStage} />
+      <StageControls
+        onNext={onNextStage}
+        onPrevious={onPreviousStage}
+        showNext={!isLastStage}
+        showPrevious={!isFirstStage}
+      />
     </article>
   );
 }

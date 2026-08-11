@@ -38,7 +38,7 @@ export function ApplicationChecklist({
         ChAMP Engineering
       </p>
       <div>
-        <h1 className="max-w-[330px] text-[40px] leading-[0.98] font-bold tracking-[-0.065em]">
+        <h1 className="max-w-[330px] text-[40px] leading-[0.98] font-bold tracking-[0.035em]">
           Application Checklist
         </h1>
         <p className="mt-[17px] inline-flex rounded-full bg-[#922D2E]/10 px-2.5 py-[7px] text-[11px] font-bold text-[#922D2E]">
@@ -59,6 +59,8 @@ export function ApplicationChecklist({
 
       <ApplicationStagePanel
         completedItems={completedItems}
+        isFirstStage={activeIndex === 0}
+        isLastStage={activeIndex === applicationStages.length - 1}
         key={activeStage.id}
         onKeyDown={handleStageNavigationKeyDown}
         onNextStage={showNextStage}

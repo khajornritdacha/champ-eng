@@ -10,7 +10,7 @@ export function TimelineSection(): React.JSX.Element {
         <span className="text-[10px] font-extrabold tracking-[0.13em] text-[#BCBEC0] uppercase">
           ChAMP Engineering
         </span>
-        <strong className="mt-2 text-[30px] font-bold tracking-[-0.05em]">
+        <strong className="mt-2 text-[30px] font-bold tracking-[0.035em]">
           Timeline
         </strong>
         <div aria-hidden="true" className="mt-[18px] flex items-center gap-2">

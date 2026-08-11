@@ -48,19 +48,16 @@ export function SocialFooter(): React.JSX.Element {
         </p>
         <a
           className="mt-1 inline-block text-[10px] font-bold text-white underline"
-          href="mailto:champ.eng.team@gmail.com"
+          href="mailto:official.champeng9@gmail.com"
         >
-          champ.eng.team@gmail.com
+          official.champeng9@gmail.com
         </a>
       </div>
-      <nav
-        aria-label="ChAMP social channels"
-        className="col-span-2 flex gap-2.5"
-      >
+      <nav aria-label="ChAMP social channels" className="col-span-2 flex gap-4">
         {socialLinks.map(({ href, icon: Icon, label }) => (
           <a
             aria-label={`ChAMP Engineering on ${label}`}
-            className="grid size-7 place-items-center rounded-[9px] bg-[#BCBEC0]/30 text-sm text-white transition-colors hover:bg-[#922D2E]"
+            className="text-xl text-white transition-colors hover:text-[#922D2E]"
             href={href}
             key={label}
             rel="noreferrer"

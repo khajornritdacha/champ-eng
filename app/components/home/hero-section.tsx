@@ -10,7 +10,7 @@ export function HeroSection(): React.JSX.Element {
       <p className="relative mb-3 text-[11px] font-extrabold tracking-[0.11em] text-[#922D2E] uppercase">
         ChAMP Engineering
       </p>
-      <h1 className="relative max-w-[390px] text-[clamp(40px,11vw,54px)] leading-[0.96] font-bold tracking-[-0.065em]">
+      <h1 className="relative max-w-[390px] text-[clamp(40px,11vw,54px)] leading-[0.96] font-bold tracking-[0.035em]">
         Prepare for ChAMP Eng the right way
       </h1>
       <p className="relative mt-[22px] max-w-[360px] text-[15px] leading-[1.7] text-black/65">

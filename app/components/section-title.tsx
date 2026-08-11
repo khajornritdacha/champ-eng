@@ -18,7 +18,9 @@ export function SectionTitle({
           {eyebrow}
         </p>
       ) : null}
-      <h2 className={`text-[29px] leading-[1.04] font-bold tracking-[-0.065em] ${titleColor}`}>
+      <h2
+        className={`text-[29px] leading-[1.04] font-bold tracking-[0.035em] ${titleColor}`}
+      >
         {title}
       </h2>
     </div>
