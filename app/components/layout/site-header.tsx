@@ -20,7 +20,8 @@ export function SiteHeader(): React.JSX.Element {
         <Image
           alt="ChAMP Engineering"
           className="h-auto w-[110px]"
-          preload
+          fetchPriority="high"
+          loading="eager"
           sizes="110px"
           src={champLogo}
         />
