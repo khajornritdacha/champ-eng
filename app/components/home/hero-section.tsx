@@ -14,13 +14,13 @@ export function HeroSection(): React.JSX.Element {
         Prepare for ChAMP Eng the right way
       </h1>
       <p className="relative mt-[22px] max-w-[360px] text-[15px] leading-[1.7] text-black/65">
-        A community built for engineers who stay curious, challenge
-        themselves, and move forward together.
+        A simple checklist tool for mentee applicants. Work through each phase of ChAMP Engineering, reflect on your answers, and walk into the application knowing you are ready.
       </p>
       <div className="relative mt-7 flex gap-2.5">
         <Link
           className="inline-flex min-h-[42px] items-center justify-center rounded-xl bg-[#922D2E] px-[18px] text-xs font-bold text-white shadow-[0_10px_20px_rgb(146_45_46_/_20%)] transition-transform hover:-translate-y-0.5"
-          href="/checklist"
+          href="https://apply.champeng.site/"
+          target="_blank"
         >
           Start your application
         </Link>
