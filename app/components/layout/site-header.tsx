@@ -9,6 +9,7 @@ import champLogo from "@/public/champ-logo.png";
 const navigationItems = [
   { href: "/", label: "Home" },
   { href: "/checklist", label: "Checklist" },
+  { href: "/mentors", label: "Mentors" },
 ];
 
 export function SiteHeader(): React.JSX.Element {
