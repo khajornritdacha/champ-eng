@@ -89,4 +89,9 @@ export const mentorPictureFocus: Record<string, MentorPictureFocus> = {
   "mentor-69": { position: "50% 2%", origin: "45% 40%", zoom: 1.13 },
   "mentor-70": { position: "50% 0%" },
   "mentor-71": { position: "50% 0%" },
+  "mentor-72": { position: "50% 0%", origin: "50% 0%", zoom: 1.2},
+  "mentor-73": { position: "50% 0%" },
+  "mentor-74": { position: "50% 25%" },
+  "mentor-75": { position: "50% 0%", origin: "-10% 0%", zoom: 1.1 },
+  "mentor-76": { position: "50% 0%"},
 };
