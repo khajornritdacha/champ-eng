@@ -156,7 +156,7 @@ export const mentors: Mentor[] = [
   },
   {
     id: "mentor-07",
-    mentorPictureUrl: "/mentors/mentor-07.jpg",
+    mentorPictureUrl: "/mentors/mentor-07.jpeg",
     nickname: "พี่ตั๋ง",
     fullName: "พรเทพ ชูพันธุ์",
     department: "EE",
